@@ -1,0 +1,36 @@
+Here's a basic .gitignore file for a Vue 3 project:
+
+# Environment specific files
+.env*
+.env.local
+.env.development
+.env.production
+
+# Build and distribution files
+node_modules/
+dist/
+.output/
+
+# Editor specific files
+.vscode/
+.idea/
+.sublime-project
+
+# Testing tools
+coverage/
+jest/
+
+# IDE specific files
+.DS_Store
+
+# Temporary files
+*.log
+npm-debug.log*
+yarn.lock
+
+# Linting and formatting files
+eslintcache/**/*.json
+prettier**/**
+
+# Specific Vue files
+*.css.d.ts
